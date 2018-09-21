@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+    	<add id="Ekomi_EkomiIntegration::mainMenu" title="Ekomi" module="Ekomi_EkomiIntegration" sortOrder="500" parent="Magento_Reports::report" resource="Ekomi_EkomiIntegration::mainMenu"/>
+        <add id="Ekomi_EkomiIntegration::reviews" title="Recensioni Ekomi" module="Ekomi_EkomiIntegration" sortOrder="51" resource="Ekomi_EkomiIntegration::reviews" parent="Ekomi_EkomiIntegration::mainMenu" action="EkomiIntegration/reviews"/>
+    </menu>
+</config>
